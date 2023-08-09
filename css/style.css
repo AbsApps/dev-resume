@@ -46,6 +46,7 @@ div.main-page {
   font-size: 14;
 }
 .container div.skills p {
+  font-size: 12px;
   margin-bottom: 10px;
 }
 
@@ -96,6 +97,16 @@ section.header h2 {
 }
 .list-experience .item-card:last-child .bullet-item {
   border-left: unset;
+}
+
+.icon--job header:before {
+  background-image: url(./../img/briefcase.png) !important;
+  background-size: 20px !important;
+}
+
+.icon--education header:before {
+  background-image: url(./../img/university.png) !important;
+  background-size: 20px !important;
 }
 
 section.item-card {
@@ -149,7 +160,7 @@ div.bullet-item:before {
   width: 10px;
   height: 10px;
   position: absolute;
-  left: -5.5px;
+  left: -6.5px;
   top: 0px;
   border: 1.9px solid rgb(0, 149, 255);
   border-radius: 100%;
@@ -180,7 +191,7 @@ div.detail_header div.body {
   flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 div.detail_header div.body div > div.icon {
   width: 40px;
@@ -202,6 +213,21 @@ div.detail_header div.body div.title {
   letter-spacing: 5px;
 }
 
+.icon--dev div.body div > div.icon {
+  background-image: url("./../img/developer.png") !important;
+  background-size: 20px !important;
+}
+
+.icon--profile div.body div > div.icon {
+  background-image: url("./../img/profile.png") !important;
+  background-size: 20px !important;
+}
+
+.icon--tools div.body div > div.icon {
+  background-image: url("./../img/tools.png") !important;
+  background-size: 20px !important;
+}
+
 div.container-skills span.title {
   color: #b6dde8;
   text-transform: uppercase;
@@ -217,4 +243,40 @@ ul.list-skills {
 }
 ul.list-skills li {
   margin-bottom: 10px;
+}
+
+div.tools-box {
+  width: 100%;
+}
+div.tools-box div.item-tools {
+  width: 100%;
+}
+div.tools-box div.item-tools .title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #e5e5e5;
+}
+div.tools-box div.item-tools .percent {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #b6dde8;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+div.tools-box div.item-tools .percent div {
+  width: 50%;
+  background-color: #b6dde8;
+  height: 20px;
+}
+div.tools-box div.item-tools .percent--photoshop div {
+  width: 70% !important;
+}
+div.tools-box div.item-tools .percent--git div {
+  width: 80% !important;
+}
+div.tools-box div.item-tools .percent--postman div {
+  width: 80% !important;
+}
+div.tools-box div.item-tools .percent--vsCode div {
+  width: 95% !important;
 }/*# sourceMappingURL=style.css.map */
