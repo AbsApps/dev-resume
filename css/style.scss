@@ -48,8 +48,8 @@ div.main-page {
     div.resume,
     div.skills {
         box-sizing: border-box;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     div.resume {
@@ -317,6 +317,16 @@ div.detail_header {
         // }
     }
 
+}
+
+
+.icon--getInTouch {
+    div.body {
+        div>div.icon {
+            background-image: url('./../img/telephone.png') !important;
+            background-size: 15px !important;
+        }
+    }
 }
 
 .icon--dev {
